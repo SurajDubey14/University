@@ -86,8 +86,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding: 5%; */
-  margin: 10% 0% 0%;
+  padding: 50px;
+  margin: 100px 0% 0%;
 }
 .banner-content {
   width: 1260px;
