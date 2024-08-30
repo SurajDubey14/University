@@ -57,4 +57,7 @@
   .blog-right{
     width: 100%;
   }
+  .banner{
+    margin: 0;
+  }
 }
