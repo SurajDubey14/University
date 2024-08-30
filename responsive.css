@@ -1,0 +1,60 @@
+@media only screen and (max-width: 767px) {
+  .right-nav {
+    display: none;
+  }
+  .clickedHam {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    padding: 40px 100px;
+    height: 100%;
+    background-color: black;
+    z-index: 1;
+    transition: 0.5s ease-in;
+  }
+  /* .clickedHam nav ul li a{
+    } */
+  @keyframes slideanimation {
+    from {
+      right: -100%;
+    }
+    to {
+      right: 0%;
+    }
+  }
+  .clickedHam nav ul {
+    animation: slideanimation 2s ease-in 2s;
+    flex-direction: column;
+    gap: 20px;
+  }
+  #hamburger {
+    display: block;
+    z-index: 2;
+  }
+  .Course-Container,
+  .campus-container,
+  .facilities .facilities-container,
+  .testimonals-row,
+  .contact-box {
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 100%;
+  }
+  .blog,
+  .about {
+    flex-direction: column;
+    line-height: normal;
+  }
+  .testimonals-col {
+    padding: 25px;
+  }
+  .contact-us .address .data {
+    font-size: larger;
+  }
+  .blog-right{
+    width: 100%;
+  }
+}

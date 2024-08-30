@@ -1,0 +1,77 @@
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url(images/contactBaner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  height: 70vh;
+}
+.container-wrp {
+  width: 100%;
+  max-width: 1220px;
+}
+.contact-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+/* .map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  } */
+.map {
+  padding: 20px;
+}
+.map iframe {
+  width: 100%;
+}
+
+.contact-us .address {
+  text-align: left;
+  padding: 20px;
+}
+.contact-us .address .data {
+  display: flex;
+  justify-content: start;
+  /* align-items: center; */
+  gap: 20px;
+  padding: 15px 0px;
+  font-size: x-large;
+}
+.contact-us .address .data i {
+  padding-top: 5px;
+}
+.contact-us .address .data .desc p {
+  padding: 5px 0px;
+}
+
+.Contact-form {
+  padding: 20px;
+}
+.Contact-form form {
+  /* display: flex; */
+  /* flex-direction: column; */
+  width: 100%;
+}
+.Contact-form form input {
+  width: 100%;
+  padding: 20px;
+  margin: 10px 0px;
+}
+
+.Contact-form form textarea {
+  width: 100%;
+  padding: 20px 20px 100px 20px;
+}
+
+button {
+  display: block;
+  outline: 1px solid black;
+}
+button:hover {
+  outline: none;
+}

@@ -1,0 +1,45 @@
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  height: 70vh;
+}
+.about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  padding: 30px;
+  line-height: 2;
+  width: 100%;
+}
+.about-col {
+  width: 100%;
+}
+.about .about-col h1 {
+  font-size: xx-large;
+}
+.about .about-col p {
+  line-height: 1.5;
+  color: rgb(129, 129, 129);
+}
+.about button {
+  outline: 2px solid black;
+  padding: 15px 30px;
+}
+.about button:hover {
+  outline: none;
+  transition: 1s;
+}
+.about button a {
+  color: black;
+}
+.about button:hover a {
+  color: white;
+}
+.about .about-col img {
+  width: 100%;
+}

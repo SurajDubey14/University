@@ -1,0 +1,72 @@
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url(images/blogBanner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  height: 70vh;
+}
+.blog {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+}
+.blog-left {
+  width: 100%;
+}
+.blog-left img{
+  width : 100%;
+}
+.blog-left .description h1 {
+  padding: 20px 0px;
+}
+.blog-left .description p {
+  padding: 10px 0px;
+  color: rgb(109, 108, 108);
+}
+.blog-right {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.blog-right .head {
+  background-color: rgb(255, 86, 86);
+  font-size: large;
+  padding: 20px;
+  font-weight: 500;
+}
+.blog-right .data-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.comment {
+  width: 100%;
+  border: 0.5px solid grey;
+  padding: 30px;
+  margin: 50px 0px;
+}
+.comment h1 {
+  color: rgb(93, 92, 92);
+  padding-bottom: 20px;
+}
+.comment form input {
+  width: 100%;
+  padding: 20px;
+  margin: 10px 0px ;
+}
+
+.comment form textarea {
+  width: 100%;
+  padding: 20px 20px 50px 20px;
+}
+.comment form button{
+    display: block;
+    outline: 1px solid black;
+}
+.comment form button:hover{
+    outline: none;
+}
